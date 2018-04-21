@@ -1,0 +1,93 @@
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .container {
+    width: 90%;
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}*/
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+  
+h2{
+  
+}
+body{
+ 
+    
+}
+ul {
+    padding: 0;
+    list-style: none;
+  }
+
+.container{
+    
+    padding: 20px;
+    margin: 40px;
+    
+  }
+
+  .profile{
+    padding: 10px;
+    background-color: rgba(23, 95, 20, 0.377);
+  }
+
+  .aboutMe{
+   
+      padding: 10px;
+      background-color: rgba(23, 95, 20, 0.377);
+  }
+
+  .education{
+    padding: 10px;
+    
+  }
+
+  .contact{
+      padding: 10px;
+      
+  }
+
+  .skills{
+      padding: 10px;
+      
+  }
+
+  .hobbies{
+      padding: 10px;
+  }
